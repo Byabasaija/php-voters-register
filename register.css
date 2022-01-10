@@ -1,60 +1,77 @@
-* {
-    padding: 0;
-    margin: 0;
-    font-family: sans-serif;
-}
+@import url('https://fonts.googleapis.com/css2?family=Vujahday+Script&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lobster&family=Vujahday+Script&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@100&family=Lobster&family=Vujahday+Script&display=swap');
 
 body {
-    background: url('./form.jpg') no-repeat;
-    background-size: cover;
-    color: #fff
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    max-height: 100vh;
+    background-color: rgba(5, 5, 24, 0.904);
+    color: white;
+    font-family: 'Lato', sans-serif;
+}
+
+body h1 {
+    padding-top: 20px;
+    width: 70%;
+    margin: auto;
+    font-family: 'Lobster', cursive;
+
+}
+
+main {
+    display: flex;
+    flex-direction: row;
+    gap: 50px;
+    width: 70%;
+    margin: auto;
+    padding-top: 30px;
+}
+.intro {
+ 
+}
+
+.timer {
+    display: flex;
+    gap: 20px;
 }
 
 .registration-form {
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, 50%);
-    width: 400px;
-
+    margin-left: 30px;
 }
 
-.registration-form h1 {
-    font-size: 30px;
-    text-align: center;
-    text-transform: uppercase;
-    margin: 40px;
-    color: darkblue;
+.registration-form-h1 {
+    font-family: 'Vujahday Script', cursive;
 }
 
-.registration-form p {
-    font-size: 20px;
+.registration-form label {
+    font-size: 18px;
     margin: 15px 0;
-    color: greenyellow;
+    padding: 10px;
 
 
 }
 
 .registration-form input {
+    background-color: rgba(5, 5, 24, 0.904);
     font-size: 16px;
+    width: 100%;
     padding: 15px 10px;
-    width: 100px;
     border: 0;
-    border-radius: 5px;
     outline: none;
+    border-radius: 5px;
+    margin: 10px;
+
 }
 
 .registration-form button {
     font-size: 18px;
-    font-weight: bold;
-    margin: 20px 0;
-    padding: 10px 15px;
-    width: 50%;
-    border: 0;
+    border: none;
+    background-color: blue;
     border-radius: 5px;
-    background-color: #fff;
-}
-
-.registration-form button:hover {
-    color: red;
+    margin-top: 10px;
+    padding: 10px;
+    margin-right: 10px;
+    
 }
