@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Register</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <script src="index.js"></script>
+</head>
+<body>
+
+    <h2>Register for 2026 elections</h2>
+        <h4>Hurry before it's too late</h4>
+        <p id="days"></p>
+        <p id="hours"></p>
+        <p id="mins"></p>
+        <p id="secs"></p>
+        <h2 id="end"></h2>
+        <hr>
+        
+     <form action="signup.php" method="post">
+        
+        <label>First Name</label>
+        <input type="text" name="firstname" placeholder="Enter User Name"><br>
+        <label>Second Name</label>
+        <input type="text" name="secondname" placeholder="Enter second name"><br>
+        <label>Date of birth</label>
+        <input type="number" name="dob" placeholder="Enter year of birth"><br>
+        <label>Nationality</label>
+        <input type="text" name="nationality" placeholder="Enter your nationality"><br>
+        <label>Polling station</label>
+        <input type="text" name="pollstation" placeholder="Enter you polling station"><br>
+        <label>NIN</label>
+        <input type="text" name="nin" placeholder="Enter your NIN"><br>
+        <button type="submit">Register</button>
+     </form>
+     
+     <h3>Already have an account? </h3>
+     <a href="login.html">Login</a>
+     
+     
+</body>
+<script src="index.js"></script>
+</html>

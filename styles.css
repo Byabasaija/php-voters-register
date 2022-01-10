@@ -1,0 +1,60 @@
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: rgba(5, 5, 24, 0.904);
+}
+
+main {
+    width: 70%;
+    margin: auto;
+   
+}
+
+.hero, .time {
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    color: white;
+}
+
+.time-box {
+    margin-left: 100px;
+    border: 1px ;
+    border-color: tomato;
+    border-radius: 10px;
+    background: linear-gradient(to right, purple, pink, indigo);
+
+}
+
+.time-box h4 {
+    padding: 1px 50px 1px 50px;
+    color: white;
+}
+
+.time-box .time {
+    padding: 1px 50px 1px 50px;
+}
+
+.time-box .date {
+    padding: 1px 50px 1px 50px;
+    color: white;
+}
+
+.btn {
+    border: 1px ;
+    border-radius: 10px;
+    background: linear-gradient(to right, purple, pink, indigo);
+    color: white;
+    width: 150px;
+    height: 50px;
+
+
+}
+
+.btn a {
+    padding: 20px;
+    color: rgb(8, 16, 129);
+    text-align: center;
+    font-size: 20px;
+}
