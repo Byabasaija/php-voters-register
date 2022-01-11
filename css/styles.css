@@ -1,3 +1,8 @@
+@import url('https://fonts.googleapis.com/css2?family=Vujahday+Script&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lobster&family=Vujahday+Script&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@100;400&family=Lobster&family=Vujahday+Script&display=swap');
+
+
 body {
     margin: 0;
     padding: 0;
@@ -23,7 +28,7 @@ main {
     border: 1px ;
     border-color: tomato;
     border-radius: 10px;
-    background: linear-gradient(to right, purple, pink, indigo);
+    background: linear-gradient(to right, purple, blue, indigo);
 
 }
 
@@ -44,7 +49,7 @@ main {
 .btn {
     border: 1px ;
     border-radius: 10px;
-    background: linear-gradient(to right, purple, pink, indigo);
+    background: linear-gradient(to right, purple, blue, indigo);
     color: white;
     width: 150px;
     height: 50px;
@@ -54,9 +59,18 @@ main {
 
 .btn a {
     padding: 20px;
-    color: rgb(8, 16, 129);
+    color: #fff;
     text-align: center;
     font-size: 20px;
+}
+
+footer span {
+    text-align: center;
+    font-family: 'Moon Dance', cursive;
+    font-size: 18px;
+    font-weight: bold;
+    color: rgb(219, 40, 219);
+    margin-left: 450px;
 }
 
 

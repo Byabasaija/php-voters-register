@@ -16,7 +16,7 @@ if (isset($_SESSION['username'])) {
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Dashboard</title>
 
-    <link rel="stylesheet" type="text/css" href="styles.css">
+    <link rel="stylesheet" type="text/css" href="./css/styles.css">
     
 
 </head>
@@ -65,6 +65,9 @@ if (isset($_SESSION['username'])) {
                   <a href="logout.php">Logout</a>
                </button>
  </main>
+  <footer>
+       <span>Designed and built with &#128151; by Group B</span>
+  </footer>
      <script src="index.js"></script>
 </body>
 
