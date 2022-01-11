@@ -34,12 +34,12 @@ let today = new Date()
 let curHr = today.getHours()
 
 if (curHr < 12) {
- document.getElementById("greet").innerHTML = 'Good morning,';
+ document.getElementById("greet").innerHTML = 'Good morning, ';
   console.log('good morning')
 } else if (curHr < 18) {
-    document.getElementById("greet").innerHTML = 'Good afternoon,';
+    document.getElementById("greet").innerHTML = 'Good afternoon, ';
   console.log('good afternoon')
 } else {
-    document.getElementById("greet").innerHTML = 'Good evening,';
+    document.getElementById("greet").innerHTML = 'Good evening, ';
   console.log('good evening')
 }

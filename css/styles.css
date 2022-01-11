@@ -24,7 +24,8 @@ main {
 }
 
 .time-box {
-    margin-left: 100px;
+    width: 70%;
+    margin: auto;
     border: 1px ;
     border-color: tomato;
     border-radius: 10px;
@@ -46,15 +47,27 @@ main {
     color: white;
 }
 
+.name, #greet, .polling {
+    /* display: inline; */
+    padding: 0;
+    margin: 0;
+}
 .btn {
+    display: block;
     border: 1px ;
     border-radius: 10px;
     background: linear-gradient(to right, purple, blue, indigo);
     color: white;
     width: 150px;
     height: 50px;
+    margin-top: 10px;
 
 
+}
+
+.svg {
+    width:100%;
+    height:401.80512px
 }
 
 .btn a {
@@ -64,14 +77,87 @@ main {
     font-size: 20px;
 }
 
-footer span {
+footer p {
     text-align: center;
     font-family: 'Moon Dance', cursive;
     font-size: 18px;
     font-weight: bold;
     color: rgb(219, 40, 219);
-    margin-left: 450px;
+    
 }
+
+
+/* Mobile version */
+
+@media (max-width: 768px) {
+    /* For mobile phones: */
+    .hero {
+        display: flex;
+        flex-direction: column-reverse;
+        gap: 20px;
+        /* width: 70%;
+        margin: auto; */
+        padding-top: 30px;
+    }
+
+    footer {
+        width: 70%;
+        margin: auto;
+        padding-top: 10px;
+    }
+
+
+    .svg {
+     width:100%;
+     height: 300.2821px
+    
+    }
+
+    .login-form input {
+        background-color: rgba(5, 5, 24, 0.904);
+        font-size: 16px;
+        width: 100px;
+        padding: 15px 10px;
+        border: 0;
+        outline: none;
+        border-radius: 5px;
+        /* margin: 10px; */
+    
+    }
+
+    
+    .time-box {
+        width: 100%;
+        margin: auto;
+        border: 1px ;
+        border-color: tomato;
+        border-radius: 10px;
+        background: linear-gradient(to right, purple, blue, indigo);
+
+    }
+
+    .time-box h4 {
+        padding: 1px 10px 1px 10px;
+        color: white;
+    }
+    
+    .time-box .time {
+        padding: 1px 10px 1px 10px;
+    }
+    
+    .time-box .date {
+        padding: 1px 10px 1px 10px;
+        color: white;
+    }
+
+    .time {
+        display: flex;
+        flex-direction: row;
+        gap: 10px;
+        color: white;
+    }
+}
+
 
 
 /* mysql://b6d4d21eda40e8:0d6a88b2@us-cdbr-east-05.cleardb.net/heroku_a1018d54ddea46a?reconnect=true 

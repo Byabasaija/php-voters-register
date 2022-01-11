@@ -6,7 +6,7 @@ body {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    max-height: 100vh;
+    /* max-height: 100vh; */
     background-color: rgba(5, 5, 24, 0.904);
     color: white;
     font-family: 'Lato', sans-serif;
@@ -18,7 +18,7 @@ body a {
 }
 
 body h1 {
-    padding-top: 20px;
+    padding-top: 10px;
     width: 70%;
     margin: auto;
     font-family: 'Lobster', cursive;
@@ -105,6 +105,10 @@ footer p {
         margin: auto;
         padding-top: 30px;
     }
+      
+    .registration-form {
+        margin-left: 0;
+    }
 
     footer {
         width: 70%;
@@ -128,16 +132,18 @@ footer p {
     
     }
 
-    .login-form input {
+    .registration-form input {
         background-color: rgba(5, 5, 24, 0.904);
         font-size: 16px;
-        width: 100px;
+        width: 200px;
         padding: 15px 10px;
         border: 0;
         outline: none;
         border-radius: 5px;
-        /* margin: 10px; */
+        margin: 10px;
     
     }
+
+    
     
   }
