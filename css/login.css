@@ -34,9 +34,6 @@ main {
     margin: auto;
     padding-top: 30px;
 }
-.intro {
- 
-}
 
 .timer {
     display: flex;
@@ -82,17 +79,71 @@ main {
     margin-right: 10px;
 }
 
+.svg {
+    width:622px;
+ height: 400.2821px
+
+}
+
 .login-p {
     font-size: 18px;
     font-weight: bold;
 
 }
 
-footer span {
+footer {
+    width: 70%;
+    margin: auto;
+    padding-top: 10px;
+}
+footer p {
     text-align: center;
     font-family: 'Moon Dance', cursive;
     font-size: 18px;
     font-weight: bold;
     color: rgb(219, 40, 219);
-    margin-left: 450px;
+    
 }
+
+/* Mobile version */
+
+@media (max-width: 768px) {
+    /* For mobile phones: */
+    main {
+        display: flex;
+        flex-direction: column;
+        gap: 50px;
+        width: 70%;
+        margin: auto;
+        padding-top: 30px;
+    }
+    
+    footer span {
+        text-align: center;
+        font-family: 'Moon Dance', cursive;
+        font-size: 18px;
+        font-weight: bold;
+        color: rgb(219, 40, 219);
+        width: 70%;
+        margin: auto;
+    }
+
+    .svg {
+     width:100%;
+     height: 300.2821px
+    
+    }
+
+    .login-form input {
+        background-color: rgba(5, 5, 24, 0.904);
+        font-size: 16px;
+        width: 100px;
+        padding: 15px 10px;
+        border: 0;
+        outline: none;
+        border-radius: 5px;
+        margin: 10px;
+    
+    }
+    
+  }
