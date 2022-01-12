@@ -38,8 +38,8 @@ include "db_connect.php";
 
             }else{
 
-                header("Location: login.html?error=Incorect User name or password");
-                echo "<h4 style'color:red;'>NIN doesn't exist</h4>";
+                header("Location: login.html?error=NIN doesn't exist");
+                
 
                 exit();
 
@@ -47,8 +47,8 @@ include "db_connect.php";
 
         }else{
 
-            header("Location: login.html?error=Incorect User name or password");
-
+            header("Location: login.html?error=NIN doesn't exist");
+            
             exit();
 
         }
